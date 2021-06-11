@@ -1,6 +1,6 @@
-# <p styles="color:yellow">code-Challenges</p>
+# <p style='color:yellow'>code-Challenges</p>
 
-### <p styles="color:green" > Carpetas </p>
+### <p color="green" > Carpetas </p>
 
 TextBack => Backend <br>
 toolboxfront => Frontend
