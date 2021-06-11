@@ -1,0 +1,20 @@
+
+@host = http://localhost:8090/api
+
+# region CLIENTE
+GET {{host}}/textchange/?texto=Ecuador ecuador Mi pais
+Content-Type: application/json
+
+###
+
+GET {{host}}/textchange/
+Content-Type: application/json
+
+#####
+
+GET {{host}}/textchange/?texto=Tobi
+Content-Type: application/json
+
+###
+
+GET {{host}}/textchange/g

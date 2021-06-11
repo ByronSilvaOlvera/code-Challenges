@@ -1,0 +1,196 @@
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-contenido{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    
+    background-color: #1a283d;
+    padding: 0.5rem 0.5rem;
+    
+}
+
+#id{
+    margin-right: 10px;
+    width: 100px;
+    height: 60px;
+}
+
+.btn-descarga-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+
+
+    .btn-descarga{
+        width: 110px;
+        height: 40px;
+        margin: auto;
+        color: #1a283d;
+        #icon-descarga{
+            font-size: 18px;
+            color: #1a283d;
+            margin-right: 5px;
+        }
+    }
+
+    
+}
+
+.main-contenido{
+    display: flex;
+    flex-direction: column;
+
+    height: 98vh;
+    background-color: rgb(233, 233, 233);
+    //border: 2px solid green;
+
+    .text-input{
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+        height: 15%;
+    
+        background-color: red;
+        div:first-child{
+            width: 30%;
+        }
+        div{
+            margin-inline: 1rem;                
+        }
+    
+    
+    }
+
+
+    .main-text-change{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 100%;
+        
+        //border: 2px solid yellow;
+        
+        .body-text{
+            position: relative;
+            display: flex;
+            
+            flex-direction: row;
+
+            width: 70%;
+            height: 70%;
+
+            background-color: #fff;
+            
+            .result{
+                
+                width: 15%;
+                padding: 1rem;
+
+            }
+            .entro-text{
+                width: 85%;
+                padding: 2.5rem 0 0 0 ;
+                .texto-send-body{
+
+                    position: relative;
+                    display: flex;
+                    justify-content: left;
+                    align-items: left;
+                    flex-direction: column;
+
+                    padding: 0.5rem 0.5rem;
+                    div{
+                        width: 90%;
+                        padding: 0.5rem 0;
+                        input{
+                            width: 90%;
+                        }
+                        p{
+                            text-align: left;
+                            margin: 3px 0;
+                            padding : 0 18px;
+                            color: rgb(117, 182, 20);
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+#btn-send{
+    width: 7rem;
+    #icon-send{
+        padding-right: 3px;
+    }
+}
+
+.msg-error{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 992px) {
+    .texto-send-body{
+        div{
+            width: 30rem ;
+            input{
+                width: 30rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .texto-send-body{
+        div{
+            width: 20rem ;
+            input{
+                width: 20rem;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .texto-send-body{
+        div{
+            //width: 10rem ;
+            input{
+                width: 10rem;
+            }
+        }
+    }
+    .text-input{
+        div:first-child{
+            width: 18%;
+        }
+    }
+
+}
+
+
