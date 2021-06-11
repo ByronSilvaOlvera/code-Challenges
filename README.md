@@ -3,7 +3,7 @@
 ### <p styles="color:green" > Carpetas </p>
 
 TextBack => Backend <br>
-toolboxfront => Front
+toolboxfront => Frontend
 
-En cada carpeta esta readme.md 
+En cada carpeta esta readme.md respectivo
 
